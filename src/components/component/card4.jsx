@@ -13,6 +13,7 @@ export function CardWithForm4() {
       <CardHeader>
         <Image
             src="/as.png"
+            alt="android studio"
             width={90}
             height={90}
             className="transition-transform duration-300 hover:scale-110"

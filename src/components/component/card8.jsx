@@ -13,6 +13,7 @@ export function CardWithForm8() {
       <CardHeader>
         <Image
             src="/PHP.png"
+            alt="php"
             width={90}
             height={90}
             className="transition-transform duration-300 hover:scale-110"

@@ -13,6 +13,7 @@ export function CardWithForm2() {
       <CardHeader>
         <Image
             src="/javascript_.png"
+            alt="javascript"
             width={90}
             height={90}
             className="transition-transform duration-300 hover:scale-110"

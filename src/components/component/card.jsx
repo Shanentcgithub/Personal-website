@@ -13,6 +13,7 @@ export function CardWithForm() {
       <CardHeader>
         <Image
             src="/nextjs_.png"
+            alt="nextjs"
             width={90}
             height={90}
             className="rounded-full transition-transform duration-300 hover:scale-110"

@@ -13,6 +13,7 @@ export function CardWithForm7() {
       <CardHeader>
         <Image
             src="/TailwindCSS_.png"
+            alt="tailwind"
             width={90}
             height={90}
             className="transition-transform duration-300 hover:scale-110"

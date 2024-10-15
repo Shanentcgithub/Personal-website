@@ -13,6 +13,7 @@ export function CardWithForm3() {
       <CardHeader>
         <Image
             src="/figma_.png"
+            alt="Figma"
             width={90}
             height={90}
             className="transition-transform duration-300 hover:scale-110"

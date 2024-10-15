@@ -13,6 +13,7 @@ export function CardWithForm6() {
       <CardHeader>
         <Image
             src="/python_.png"
+            alt="python"
             width={90}
             height={90}
             className="transition-transform duration-300 hover:scale-110"

@@ -13,6 +13,7 @@ export function CardWithForm5() {
       <CardHeader>
         <Image
             src="/react_.png"
+            alt="React"
             width={90}
             height={90}
             className="transition-transform duration-300 hover:scale-110"
