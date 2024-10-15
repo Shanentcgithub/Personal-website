@@ -7,7 +7,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel'; // Carousel components
-
+import Image from 'next/image';
 // Modal component
 const Modal = ({ isOpen, onClose, content }) => {
   if (!isOpen) return null;
@@ -28,7 +28,7 @@ const Modal = ({ isOpen, onClose, content }) => {
         </div>
 
         {content.imageUrl && (
-          <img
+          <Image
             src={content.imageUrl}
             alt="Project"
             className="mb-4 rounded-lg w-full h-[300px] object-cover" // Fixed size and object-fit
