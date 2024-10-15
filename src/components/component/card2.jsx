@@ -9,7 +9,7 @@ import {
 
 export function CardWithForm2() {
   return (
-    <Card className="w-[300px] h-[140] bg-[#1c3755] text-white border border-[#2c4a67] shadow-xl rounded-2xl p-6 hover:shadow-2xl transition-shadow duration-300 transform hover:scale-[1.01]">
+    <Card className="w-[230px] h-[140] bg-[#1c3755] text-white border border-[#2c4a67] shadow-xl rounded-2xl p-6 hover:shadow-2xl transition-shadow duration-300 transform hover:scale-[1.01]">
       <CardHeader>
         <Image
             src="/javascript_.png"
