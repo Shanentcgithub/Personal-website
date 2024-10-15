@@ -165,8 +165,9 @@ export default function Portfolio() {
         <div className="text-lg text-white">
           <p>Email: shanerodanesalonga@gmail.com</p>
           <p>Phone: 09695921541</p>
+          <p className="mt-2">Follow me on <Link href="https://github.com/Shanentcgithub" className="text-blue-400 hover:underline">Github</Link></p>
+          <p className="mt-2">Follow me on <Link href="https://www.linkedin.com/in/shane-rodane-salonga-7a3200333/" className="text-blue-400 hover:underline">LinkedIn</Link></p>
           <p>© 2024 Shane Rodane Salonga. All rights reserved.</p>
-        <p className="mt-2">Follow me on <Link href="https://www.linkedin.com/in/shane-rodane-salonga-7a3200333/" className="text-blue-400 hover:underline">LinkedIn</Link></p>
         </div>
       </footer>
     </div>);
