@@ -16,7 +16,7 @@ export default function Home() {
       <h4 className="text-3xl flex flex-col justify-center sm:text-4xl mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:from-pink-400 hover:to-yellow-400 transition-colors duration-300">
         Aspiring Full-Stack Developer
       </h4>
-      s
+      
       <Link href="/portfolio">
         <ButtonSecondary />
       </Link>

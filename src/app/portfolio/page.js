@@ -71,8 +71,8 @@ export default function Portfolio() {
         </div>
 
         <div className="flex-grow text-center md:text-left gap-10 w-full max-w-lg md:max-w-2xl px-4 md:px-10">
-          <div className="mr-2 flex flex-col md:flex-row">
-            <h1 className="mr-2 text-xl sm:text-2xl mb-4 text-white">Hi, I'm a</h1>
+          <div className="flex flex-col md:flex-row">
+            <h1 className="text-xl sm:text-2xl mb-4 text-white">Hi, I'm a</h1>
             <h2 className="text-xl sm:text-2xl mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:from-pink-400 hover:to-yellow-400 transition-colors duration-300">
               <span className="input"></span>
             </h2>
@@ -91,7 +91,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* Skills Section */}
+
       <div id="skills" className="flex flex-col items-center mb-8">
         <h1 className="text-2xl sm:text-3xl md:text-5xl mb-5 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:from-pink-400 hover:to-yellow-400 transition-colors duration-300">
           SKILLS
@@ -108,7 +108,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* Projects Section */}
+
       <div id="projects" className="flex flex-col items-center mb-8">
         <h1 className="text-2xl sm:text-3xl md:text-5xl mb-5 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:from-pink-400 hover:to-yellow-400 transition-colors duration-300">
           PROJECTS
@@ -123,25 +123,51 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* Experience Section */}
+
       <div id="experience" className="flex flex-col items-center mb-8">
         <h1 className="text-2xl sm:text-3xl md:text-5xl mb-5 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:from-pink-400 hover:to-yellow-400 transition-colors duration-300">
           EXPERIENCE
         </h1>
-        <div className="flex flex-col items-start w-full max-w-6xl px-4">
-          {/* Experience content */}
-        </div>
-      </div>
+        <div className="flex flex-col items-start w-full max-w-3xl px-4">
+         <div className="bg-[#1c3755] text-white border border-[#2c4a67] shadow-lg rounded-xl p-6 mb-4 w-full">
+            <h2 className="text-xl font-bold">Capstone Project</h2>
+            <p>Date: January 2024 - Present</p>
+            <p>Job Title: Frontend Developer</p>
+            <p>Accomplishments: Developed and maintained web applications, improved site performance by 30%, collaborated with designers to enhance user experience.</p>
+          </div>
+          <div className="bg-[#1c3755] text-white border border-[#2c4a67] shadow-lg rounded-xl p-6 mb-4 w-full">
+            <h2 className="text-xl font-bold">Front end developer</h2>
+            <p>Date: December 2022 - January2023</p>
+            <p>Job Title: Front-end Development Intern</p>
+            <p>Accomplishments: Developed responsive and accessible web pages using HTML, CSS, and JavaScript, Designed website interfaces, leveraging UI/UX design experience using Figma
+            Optimized website performance and user experience.</p>
+          </div>
+          <div className="bg-[#1c3755] text-white border border-[#2c4a67] shadow-lg rounded-xl p-6 mb-4 w-full">
+            <h2 className="text-xl font-bold">Baranggay system maintenance</h2>
+            <p>Date: april 2022 - november  2022</p>
+            <p>Job Title: Frontend Developer and maintenance</p>
+            <p>Accomplishments: Developed and maintained a local system, bug fixes and designing to have a presentable system and user friendly.</p>
+          </div>
+          <div className="bg-[#1c3755] text-white border border-[#2c4a67] shadow-lg rounded-xl p-6 mb-4 w-full">
+            <h2 className="text-xl font-bold">Atongs auto works</h2>
+            <p>Date: June 2018 - present</p>
+            <p>Job Title: ECU programmer and technician</p>
+            <p>Accomplishments: started as a assistant and studied the ecu programming sector and the electrician works and technician works, and till now im embracing all the knowledge that ive gain from years of experience.</p>
+          </div>
+          </div>
+         </div>
 
-      {/* Contact Section */}
-      <div id="contact" className="flex flex-col items-center mb-8">
+
+      <footer id="contact" className="flex flex-col items-center mb-8 bg-[#0b1d33] text-white text-center py-5z">
         <h1 className="text-2xl sm:text-4xl md:text-6xl mb-5 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:from-pink-400 hover:to-yellow-400 transition-colors duration-300">
           CONTACT
         </h1>
         <div className="text-lg text-white">
           <p>Email: shanerodanesalonga@gmail.com</p>
           <p>Phone: 09695921541</p>
+          <p>© 2024 Shane Rodane Salonga. All rights reserved.</p>
+        <p className="mt-2">Follow me on <Link href="https://www.linkedin.com/in/shane-rodane-salonga-7a3200333/" className="text-blue-400 hover:underline">LinkedIn</Link></p>
         </div>
-      </div>
+      </footer>
     </div>);
 }
