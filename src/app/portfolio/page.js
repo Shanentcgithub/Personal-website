@@ -8,6 +8,7 @@ import { CardWithForm5 } from '@/components/component/card5';
 import { CardWithForm6 } from '@/components/component/card6';
 import { CardWithForm7 } from '@/components/component/card7';
 import { CardWithForm8 } from '@/components/component/card8';
+import { CardWithForm9 } from '@/components/component/card9';
 import { CarouselDemo } from '@/components/component/carousel';
 import { Card } from '@/components/ui/card';
 import Image from 'next/image';
@@ -105,6 +106,7 @@ export default function Portfolio() {
           <CardWithForm6 />
           <CardWithForm7 />
           <CardWithForm8 />
+          <CardWithForm9/>
         </div>
       </div>
 
