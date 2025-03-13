@@ -63,7 +63,7 @@ export default function Portfolio() {
       <div id="home" className="flex flex-col md:flex-row justify-center items-center p-5 md:p-10">
         <div className="flex-shrink-0 mb-10 md:mb-1 md:mr-10">
           <Image
-            src="/main_photo.png"
+            src="/Pro.png"
             alt="Shane Rodane Salonga"
             width={300}
             height={289}
@@ -134,7 +134,7 @@ export default function Portfolio() {
          <div className="bg-[#1c3755] text-white border border-[#2c4a67] shadow-lg rounded-xl p-6 mb-4 w-full">
             <h2 className="text-xl font-bold">Capstone Project</h2>
             <p>Date: January 2024 - Present</p>
-            <p>Job Title: Frontend Developer</p>
+            <p>Job Title: Web Developer and System Developer</p>
             <p>Accomplishments: Developed and maintained web applications, improved site performance by 30%, collaborated with designers to enhance user experience.</p>
           </div>
           <div className="bg-[#1c3755] text-white border border-[#2c4a67] shadow-lg rounded-xl p-6 mb-4 w-full">

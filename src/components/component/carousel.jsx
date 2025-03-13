@@ -91,6 +91,7 @@ export function CarouselDemo() {
       outcome: 'Successfully created a platform that improved communication between vehicle owners and service providers...',
       projectDate: 'January 2024',
       imageUrl: '/EAcar.png',
+      imageUrl: '/EAcar.png',
     },
     {
       projectName: 'Baranggay Management System',
