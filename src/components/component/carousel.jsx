@@ -85,9 +85,9 @@ export function CarouselDemo() {
     },
     {
       projectName: 'Navigating the Digital Garage',
-      description: 'In todays digital world, the automotive industry is rapidly evolving...',
+      description: 'In todays digital era, the automotive industry is undergoing rapid transformation. To address the growing need for convenience among vehicle owners, I have developed a strategic plan to facilitate immediate car service bookings, ensuring a seamless and efficient experience for the public',
       challenges: 'Challenges included user engagement and integrating various service providers into the platform.',
-      technologies: 'Figma for prototyping, Javascript, php, HTML, CSS, and mySQL.',
+      technologies: 'Nextjs, ReactFW, Typescript, Figma for prototyping, Javascript, php, HTML, CSS, and mySQL.',
       outcome: 'Successfully created a platform that improved communication between vehicle owners and service providers...',
       projectDate: 'January 2024',
       imageUrl: '/EAcar.png',
