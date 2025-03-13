@@ -90,7 +90,7 @@ export function CarouselDemo() {
       technologies: 'Figma for prototyping, Javascript, php, HTML, CSS, and mySQL.',
       outcome: 'Successfully created a platform that improved communication between vehicle owners and service providers...',
       projectDate: 'January 2024',
-      imageUrl: '/prototypeproject.png',
+      imageUrl: '/EAcar.png',
     },
     {
       projectName: 'Baranggay Management System',
